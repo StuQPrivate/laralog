@@ -1,0 +1,7 @@
+laralog:
+  image: 10.2.0.69:5000/stuq/laralog
+  ports:
+  - 83:80
+  volumes:
+  - ./logs:/var/www/laravel/storage/laralogs
+  restart: always

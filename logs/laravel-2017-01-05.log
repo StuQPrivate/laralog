@@ -1,0 +1,96 @@
+[2017-01-05 02:42:23] local.ERROR: exception 'Symfony\Component\Debug\Exception\FatalErrorException' with message 'Class 'Arcanedev\LogViewer\LogViewerServiceProvider' not found' in /app/var/www/laravel/app/vendor/laravel/framework/src/Illuminate/Foundation/ProviderRepository.php:146
+Stack trace:
+#0 {main}  
+[2017-01-05 03:00:58] local.ERROR: exception 'Symfony\Component\Debug\Exception\FatalErrorException' with message 'Class 'Arcanedev\LogViewer\LogViewerServiceProvider' not found' in /app/var/www/laravel/app/vendor/laravel/framework/src/Illuminate/Foundation/ProviderRepository.php:146
+Stack trace:
+#0 {main}  
+[2017-01-05 03:06:31] local.ERROR: exception 'Symfony\Component\Debug\Exception\FatalErrorException' with message 'Class 'Arcanedev\LogViewer\LogViewerServiceProvider' not found' in /app/var/www/laravel/app/vendor/laravel/framework/src/Illuminate/Foundation/ProviderRepository.php:146
+Stack trace:
+#0 {main}  
+[2017-01-05 03:07:38] local.ERROR: exception 'Symfony\Component\Debug\Exception\FatalErrorException' with message 'Class 'Arcanedev\LogViewer\LogViewerServiceProvider' not found' in /app/var/www/laravel/app/vendor/laravel/framework/src/Illuminate/Foundation/ProviderRepository.php:146
+Stack trace:
+#0 {main}  
+[2017-01-05 03:09:56] local.ERROR: exception 'Symfony\Component\Debug\Exception\FatalErrorException' with message 'Class 'Arcanedev\LogViewer\LogViewerServiceProvider' not found' in /app/var/www/laravel/app/vendor/laravel/framework/src/Illuminate/Foundation/ProviderRepository.php:146
+Stack trace:
+#0 {main}  
+[2017-01-05 03:18:48] local.ERROR: exception 'Symfony\Component\Console\Exception\CommandNotFoundException' with message 'Command "php" is not defined.' in /app/var/www/laravel/app/vendor/symfony/console/Application.php:536
+Stack trace:
+#0 /app/var/www/laravel/app/vendor/symfony/console/Application.php(184): Symfony\Component\Console\Application->find('php')
+#1 /app/var/www/laravel/app/vendor/symfony/console/Application.php(118): Symfony\Component\Console\Application->doRun(Object(Symfony\Component\Console\Input\ArgvInput), Object(Symfony\Component\Console\Output\ConsoleOutput))
+#2 /app/var/www/laravel/app/vendor/laravel/framework/src/Illuminate/Foundation/Console/Kernel.php(121): Symfony\Component\Console\Application->run(Object(Symfony\Component\Console\Input\ArgvInput), Object(Symfony\Component\Console\Output\ConsoleOutput))
+#3 /app/var/www/laravel/app/artisan(36): Illuminate\Foundation\Console\Kernel->handle(Object(Symfony\Component\Console\Input\ArgvInput), Object(Symfony\Component\Console\Output\ConsoleOutput))
+#4 {main}  
+[2017-01-05 03:18:56] local.ERROR: exception 'Symfony\Component\Console\Exception\CommandNotFoundException' with message 'There are no commands defined in the "log-viewer" namespace.' in /app/var/www/laravel/app/vendor/symfony/console/Application.php:490
+Stack trace:
+#0 /app/var/www/laravel/app/vendor/symfony/console/Application.php(522): Symfony\Component\Console\Application->findNamespace('log-viewer')
+#1 /app/var/www/laravel/app/vendor/symfony/console/Application.php(184): Symfony\Component\Console\Application->find('log-viewer:publ...')
+#2 /app/var/www/laravel/app/vendor/symfony/console/Application.php(118): Symfony\Component\Console\Application->doRun(Object(Symfony\Component\Console\Input\ArgvInput), Object(Symfony\Component\Console\Output\ConsoleOutput))
+#3 /app/var/www/laravel/app/vendor/laravel/framework/src/Illuminate/Foundation/Console/Kernel.php(121): Symfony\Component\Console\Application->run(Object(Symfony\Component\Console\Input\ArgvInput), Object(Symfony\Component\Console\Output\ConsoleOutput))
+#4 /app/var/www/laravel/app/artisan(36): Illuminate\Foundation\Console\Kernel->handle(Object(Symfony\Component\Console\Input\ArgvInput), Object(Symfony\Component\Console\Output\ConsoleOutput))
+#5 {main}  
+[2017-01-05 03:19:22] local.ERROR: exception 'Symfony\Component\Debug\Exception\FatalErrorException' with message 'Class 'Arcanedev\LogViewer\LogViewerServiceProvider' not found' in /app/var/www/laravel/app/vendor/laravel/framework/src/Illuminate/Foundation/ProviderRepository.php:146
+Stack trace:
+#0 {main}  
+[2017-01-05 03:59:37] local.ERROR: exception 'Symfony\Component\Console\Exception\CommandNotFoundException' with message 'Command "log-viewer" is not defined.
+
+Did you mean one of these?
+    log-viewer:publish
+    log-viewer:check
+    log-viewer:stats' in /app/var/www/laravel/app/vendor/symfony/console/Application.php:536
+Stack trace:
+#0 /app/var/www/laravel/app/vendor/symfony/console/Application.php(184): Symfony\Component\Console\Application->find('log-viewer')
+#1 /app/var/www/laravel/app/vendor/symfony/console/Application.php(118): Symfony\Component\Console\Application->doRun(Object(Symfony\Component\Console\Input\ArgvInput), Object(Symfony\Component\Console\Output\ConsoleOutput))
+#2 /app/var/www/laravel/app/vendor/laravel/framework/src/Illuminate/Foundation/Console/Kernel.php(121): Symfony\Component\Console\Application->run(Object(Symfony\Component\Console\Input\ArgvInput), Object(Symfony\Component\Console\Output\ConsoleOutput))
+#3 /app/var/www/laravel/app/artisan(36): Illuminate\Foundation\Console\Kernel->handle(Object(Symfony\Component\Console\Input\ArgvInput), Object(Symfony\Component\Console\Output\ConsoleOutput))
+#4 {main}  
+[2017-01-05 04:00:28] local.ERROR: exception 'Symfony\Component\Console\Exception\CommandNotFoundException' with message 'Command "log-viewer:pubclic" is not defined.
+
+Did you mean one of these?
+    log-viewer:check
+    log-viewer:publish
+    log-viewer:stats' in /app/var/www/laravel/app/vendor/symfony/console/Application.php:536
+Stack trace:
+#0 /app/var/www/laravel/app/vendor/symfony/console/Application.php(184): Symfony\Component\Console\Application->find('log-viewer:pubc...')
+#1 /app/var/www/laravel/app/vendor/symfony/console/Application.php(118): Symfony\Component\Console\Application->doRun(Object(Symfony\Component\Console\Input\ArgvInput), Object(Symfony\Component\Console\Output\ConsoleOutput))
+#2 /app/var/www/laravel/app/vendor/laravel/framework/src/Illuminate/Foundation/Console/Kernel.php(121): Symfony\Component\Console\Application->run(Object(Symfony\Component\Console\Input\ArgvInput), Object(Symfony\Component\Console\Output\ConsoleOutput))
+#3 /app/var/www/laravel/app/artisan(36): Illuminate\Foundation\Console\Kernel->handle(Object(Symfony\Component\Console\Input\ArgvInput), Object(Symfony\Component\Console\Output\ConsoleOutput))
+#4 {main}  
+[2017-01-05 04:00:33] local.ERROR: exception 'Symfony\Component\Console\Exception\CommandNotFoundException' with message 'Command "log-viewer:public" is not defined.
+
+Did you mean one of these?
+    log-viewer:publish
+    vendor:publish
+    log-viewer:stats
+    log-viewer:check' in /app/var/www/laravel/app/vendor/symfony/console/Application.php:536
+Stack trace:
+#0 /app/var/www/laravel/app/vendor/symfony/console/Application.php(184): Symfony\Component\Console\Application->find('log-viewer:publ...')
+#1 /app/var/www/laravel/app/vendor/symfony/console/Application.php(118): Symfony\Component\Console\Application->doRun(Object(Symfony\Component\Console\Input\ArgvInput), Object(Symfony\Component\Console\Output\ConsoleOutput))
+#2 /app/var/www/laravel/app/vendor/laravel/framework/src/Illuminate/Foundation/Console/Kernel.php(121): Symfony\Component\Console\Application->run(Object(Symfony\Component\Console\Input\ArgvInput), Object(Symfony\Component\Console\Output\ConsoleOutput))
+#3 /app/var/www/laravel/app/artisan(36): Illuminate\Foundation\Console\Kernel->handle(Object(Symfony\Component\Console\Input\ArgvInput), Object(Symfony\Component\Console\Output\ConsoleOutput))
+#4 {main}  
+[2017-01-05 04:33:44] local.ERROR: exception 'LogicException' with message 'Unable to prepare route [api/user] for serialization. Uses Closure.' in /app/var/www/laravel/app/vendor/laravel/framework/src/Illuminate/Routing/Route.php:995
+Stack trace:
+#0 /app/var/www/laravel/app/vendor/laravel/framework/src/Illuminate/Foundation/Console/RouteCacheCommand.php(61): Illuminate\Routing\Route->prepareForSerialization()
+#1 [internal function]: Illuminate\Foundation\Console\RouteCacheCommand->fire()
+#2 /app/var/www/laravel/app/vendor/laravel/framework/src/Illuminate/Container/Container.php(508): call_user_func_array(Array, Array)
+#3 /app/var/www/laravel/app/vendor/laravel/framework/src/Illuminate/Console/Command.php(169): Illuminate\Container\Container->call(Array)
+#4 /app/var/www/laravel/app/vendor/symfony/console/Command/Command.php(254): Illuminate\Console\Command->execute(Object(Symfony\Component\Console\Input\ArgvInput), Object(Symfony\Component\Console\Output\ConsoleOutput))
+#5 /app/var/www/laravel/app/vendor/laravel/framework/src/Illuminate/Console/Command.php(155): Symfony\Component\Console\Command\Command->run(Object(Symfony\Component\Console\Input\ArgvInput), Object(Symfony\Component\Console\Output\ConsoleOutput))
+#6 /app/var/www/laravel/app/vendor/symfony/console/Application.php(821): Illuminate\Console\Command->run(Object(Symfony\Component\Console\Input\ArgvInput), Object(Symfony\Component\Console\Output\ConsoleOutput))
+#7 /app/var/www/laravel/app/vendor/symfony/console/Application.php(187): Symfony\Component\Console\Application->doRunCommand(Object(Illuminate\Foundation\Console\RouteCacheCommand), Object(Symfony\Component\Console\Input\ArgvInput), Object(Symfony\Component\Console\Output\ConsoleOutput))
+#8 /app/var/www/laravel/app/vendor/symfony/console/Application.php(118): Symfony\Component\Console\Application->doRun(Object(Symfony\Component\Console\Input\ArgvInput), Object(Symfony\Component\Console\Output\ConsoleOutput))
+#9 /app/var/www/laravel/app/vendor/laravel/framework/src/Illuminate/Foundation/Console/Kernel.php(121): Symfony\Component\Console\Application->run(Object(Symfony\Component\Console\Input\ArgvInput), Object(Symfony\Component\Console\Output\ConsoleOutput))
+#10 /app/var/www/laravel/app/artisan(36): Illuminate\Foundation\Console\Kernel->handle(Object(Symfony\Component\Console\Input\ArgvInput), Object(Symfony\Component\Console\Output\ConsoleOutput))
+#11 {main}  
+[2017-01-05 04:38:21] local.ERROR: exception 'Symfony\Component\Console\Exception\CommandNotFoundException' with message 'Command "route" is not defined.
+
+Did you mean one of these?
+    route:cache
+    route:clear
+    route:list' in /app/var/www/laravel/app/vendor/symfony/console/Application.php:536
+Stack trace:
+#0 /app/var/www/laravel/app/vendor/symfony/console/Application.php(184): Symfony\Component\Console\Application->find('route')
+#1 /app/var/www/laravel/app/vendor/symfony/console/Application.php(118): Symfony\Component\Console\Application->doRun(Object(Symfony\Component\Console\Input\ArgvInput), Object(Symfony\Component\Console\Output\ConsoleOutput))
+#2 /app/var/www/laravel/app/vendor/laravel/framework/src/Illuminate/Foundation/Console/Kernel.php(121): Symfony\Component\Console\Application->run(Object(Symfony\Component\Console\Input\ArgvInput), Object(Symfony\Component\Console\Output\ConsoleOutput))
+#3 /app/var/www/laravel/app/artisan(36): Illuminate\Foundation\Console\Kernel->handle(Object(Symfony\Component\Console\Input\ArgvInput), Object(Symfony\Component\Console\Output\ConsoleOutput))
+#4 {main}  
